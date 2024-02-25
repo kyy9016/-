@@ -3,7 +3,7 @@ var section = document.querySelector('section');
 var genre = document.querySelector('genre');
 var random = document.querySelector('random');
 
-let myKey = "1GpJkaUyDtOhXlg3SCPIkia"; // 스프레드시트 KEY
+let myKey = "1GpJkaUyDtOhXlg3SCPIkia-F8UAKj-__bxhk7NejjE4"; // 스프레드시트 KEY
 var requestURL = `https://docs.google.com/spreadsheets/d/${myKey}/gviz/tq?tqx=out:json`;
 var request = new XMLHttpRequest();
 var musicbook;
